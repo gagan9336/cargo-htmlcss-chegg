@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- External Style Sheet -->
+    <link href="final.css" rel="stylesheet" type="text/css" media="all" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="event.js"></script>
+  </head>
+  <body>
+    <!-- Using header tag -->
+    <header>
+      <!-- Using nav tag -->
+      <nav>
+        <div id="header-wrapper">
+          <div id="header">
+            <div id="logo">
+              <h1><a href="#">CARGO</a></h1>
+            </div>
+            <div id="menu">
+              <ul>
+                <li class="current_page_item"><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li>
+                  <a href="#">About Us <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <img class="head-img" src="image.jpg" alt="" />
+      <div class="outer-grid">
+        <h1 class="head">Choose your quality delivery of your cargo</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
+          nostrum.
+        </p>
+      </div>
+      <div class="down-grid">
+        <form action="" onsubmit="return validateForm()" name="myForm">
+          <input
+            type="text"
+            name="myInput"
+            placeholder="Enter Your Tracking Number"
+          />
+          <button type="submit">Track Now</button>
+        </form>
+      </div>
+    </div>
+    <div class="grid1">
+      <img class="img-grid" src="1.jpg" alt="" />
+      <p class="p-grid">SEA FREIGHT</p>
+    </div>
+    <div class="grid2">
+      <img class="img-grid" src="2.jpg" alt="" />
+      <p class="p-grid">AIR FREIGHT</p>
+    </div>
+    <div class="grid3">
+      <img class="img-grid" src="3.jpg" alt="" />
+      <p class="p-grid">PACKAGE FORWARDING</p>
+    </div>
+    <br />
+  </body>
+</html>
